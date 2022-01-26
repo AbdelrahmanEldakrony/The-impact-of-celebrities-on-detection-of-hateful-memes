@@ -75,7 +75,7 @@ def get_graph_knowledge(person):
     from advertools import knowledge_graph
     import xlsxwriter
     import pandas as pd
-    key = 'AIzaSyDO9NpC5d2FbtxkeeBNXn8B2myJiLEnIa8'
+    key = ''
 
     kg_df = knowledge_graph(key = key, query = person)
 
